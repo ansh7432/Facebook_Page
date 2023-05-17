@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(236, 241, 245);
+        }
+
+        .fb {
+            font-family: klavika-web-disp-cond, sans-serif;
+            color: #1f62f4;
+            font-weight: 600;
+            font-size: 61px;
+            margin-top: 201px;
+            margin-left: 263px;
+            padding-bottom: 20px;
+            text-shadow: 1px 2px 2px rgb(187, 187, 187);
+        }
+
+        .tagline {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 27px;
+            display: flex;
+            /* text-align: center; */
+            margin-left: 266px;
+        }
+
+        .form1 {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 320px;
+            /* border: 2px solid red; */
+            box-shadow: 1px 1px 2px 4px rgb(226, 226, 226);
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        .form {
+            background-color: white;
+            display: inline-block;
+            position: relative;
+            left: 830px;
+            bottom: 250px;
+            border-radius: 4px
+        }
+
+        .email {
+            height: 40px;
+            border-radius: 5px;
+            background-color: white;
+            margin: 8px;
+            border-style: hidden;
+            box-shadow: -.5px -.5px;
+
+        }
+
+        .password {
+            height: 40px;
+            border-radius: 5px;
+            background-color: white;
+            margin: 8px;
+            border-style: hidden;
+            box-shadow: -.5px -.5px;
+
+        }
+
+        .login {
+            background-color: #1877f2;
+            margin: 10px;
+            padding: 4px;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 10px;
+            height: 45px;
+            border-style: hidden;
+            box-shadow: -.5px -.5px;
+        }
+
+        .login:hover {
+            cursor: pointer;
+        }
+
+        .forgot {
+            border-style: none;
+            text-align: center;
+            color: #1877f2;
+            padding: 8px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-size: 14px;
+            /* box-shadow: -.5px -.5px; */
+            /* width:45px ; */
+            /* text-decoration: none; */
+
+        }
+
+        .forgot:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        hr {
+            border: .5px solid rgb(230, 224, 224);
+            width: 300px;
+            left: 0px;
+        }
+
+        .new {
+            width: 169px;
+            height: 45px;
+            background-color: rgb(2, 134, 2);
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            border-radius: 10px;
+            padding: 4px;
+            margin-left: 90px;
+            margin-top: 15px;
+        }
+
+        .new:hover {
+            background-color: rgb(43, 183, 96);
+            transition-property: background-color;
+            transition-duration: 4s;
+            cursor: pointer;
+        }
+        .celeb{
+            left: 200500px;
+            display: inline;
+            left: 500px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div class="fb">
+            facebook
+        </div>
+        <div class="tagline">
+            Facebook helps you connect and share<br> with the people in your life.
+        </div>
+        
+    </div>
+    <div class="form">
+        <form class="form1">
+            <input class="email" type="email" placeholder="Email adress or phone number">
+            <input class="password" type="password" placeholder="Password">
+            <input class="login" type="submit" value="Log in">
+            <a class="forgot" href="">Forgotten Password?</a>
+            <!-- <input class="forgot" type="button" value="Forgotten Password?"> -->
+            <hr>
+            <input class="new" type="button" value="Create new account ">
+            
+        </form>
+
+    </div>
+    <!-- <p class="celeb"><a class="celeb" href="">Create a Page&nbsp;</a>for a celebrity, brand or business.</p> -->
+</body>
+
+</html>
